@@ -6,7 +6,7 @@ namespace T04Ejercicio6
     {
         static void Main()
         {
-            Console.WriteLine("Diga el precio de un producto:");
+            Console.WriteLine("Escriba el precio de un producto:");
             int precio = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Indique la forma de pago (efectivo o tarjeta):");
             string formaPago = Console.ReadLine();
